@@ -9,8 +9,8 @@ public class Config extends swfunctions {
 	@BeforeTest
 	public void beforetestingstart(){
 		///Users/SanjidaAfrin/Desktop/HWFrameWork/Drivers/chromedriver.exe
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Drivers/chromedriver.exe");
-		ChromeDriver driver=new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "/Users/SanjidaAfrin/Documents/SeleniumFramework/Drivers/chromedriver");
+		 driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 	}
 

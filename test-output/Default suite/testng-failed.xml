@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.Fb_Login_test1">
+      <class name="tests.AssertionTest">
         <methods>
-          <include name="fblogintest"/>
+          <include name="CreateNewAC"/>
           <include name="beforetestingstart"/>
         </methods>
-      </class> <!-- tests.Fb_Login_test1 -->
+      </class> <!-- tests.AssertionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
