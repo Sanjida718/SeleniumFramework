@@ -16,7 +16,7 @@ public class DropDownTest extends Config {
     public void test2(){
 		dropdownusingValue(loc.monthloc,value.monthval);
 		dropdownusingValue(loc.dayloc,value.dayval);
-		dropdownusingValue(loc.yearloc,value.yearval);
+		dropdownusingValue(loc.yearloc,value.yearval); 
 
 		//WebElement selectelements=driver.findElement(By.xpath(loc));
 		//Select dropdown=new Select (selectelements);

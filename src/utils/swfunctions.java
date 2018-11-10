@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+
 public class swfunctions {
 	public WebDriver driver;
 	public void typeByXpath (String locators, String values){
@@ -32,8 +34,14 @@ public class swfunctions {
 		dropdown.selectByIndex(x);
 	}
 	//public void Radiobutton(){
-		
+		//Iframe
+	public void iframe(String loc,String val){
+		WebElement rr=(WebElement) driver.findElement(By.xpath(loc)).getSize();
 	}
+
+}
+
+
 	
 
 		
